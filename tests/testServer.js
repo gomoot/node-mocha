@@ -1,10 +1,20 @@
 
-var request = require("supertest");
+// var request = require("supertest");
+/*
 var app = require("../server.js");
+var request = require("supertest");
+
+    
 
 describe("GET /", function() {
- it("Respond with hello world", function(done) {
+ 
+ it("Respond with Hello World!", function(done) {
  //navigate to root and check the the response is "hello world"
- request(app).get("/").expect("hello world", done);
- });
-});
+//equest(app).get("/").expect("Hello World!", done);
+ request(app.listen())
+    .get("/")
+    .expect("Hello World!")
+    .end(done); 
+
+    });
+});*/
