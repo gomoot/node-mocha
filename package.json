@@ -4,6 +4,8 @@
   "description": "testing mocha",
   "main": "index.js",
   "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "start_windows": "set NODE_ENV=production&node server.js",
     "test": "mocha tests --recursive --watch"
   },
   "keywords": [
@@ -12,6 +14,7 @@
   "author": "Gomoot T.",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "mocha": "^5.0.1"
   },
   "devDependencies": {
